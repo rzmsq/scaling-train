@@ -1,34 +1,12 @@
-// Create wev server
-// npm install express
-// npm install body-parser
-// npm install nodemon
-// npm install mongoose
-// npm install uuid
-// npm install nodemailer
-// npm install dotenv
-// npm install bcrypt
-// npm install jsonwebtoken
-// npm install cookie-parser
-// npm install express-session
-// npm install connect-mongo
-// npm install passport
-// npm install passport-local
-// npm install passport-local-mongoose
-// npm install passport-jwt
-// npm install passport-google-oauth20
-// npm install express-handlebars
-// npm install express-validator
-// npm install connect-flash
-// npm install multer
-// npm install sharp
-// npm install request
-// npm install socket.io
-// npm install moment
-// npm install axios
-// npm install cors
-// npm install helmet
-// npm install morgan
-// npm install multer-s3
-// npm install aws-sdk
-// npm install bcryptjs
-// npm install lodash
+// Create web server
+
+// Import modules
+const express = require('express');
+const bodyParser = require('body-parser');
+const fs = require('fs');
+
+// Create express application
+const app = express();
+
+// Set the view engine to ejs
+app.set('view engine', 'ejs');
